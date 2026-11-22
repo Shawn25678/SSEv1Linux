@@ -1,0 +1,83 @@
+window {
+  background: #140e09;
+  color: #e6d3a1;
+}
+
+headerbar {
+  background: #1c140c;
+  color: #f0d78c;
+  border-bottom: 1px solid #6b5424;
+}
+
+headerbar label,
+headerbar entry {
+  color: #f0d78c;
+}
+
+.sidebar {
+  background: #1c140c;
+  border-right: 1px solid #6b5424;
+  padding: 12px 8px;
+}
+
+button.nav {
+  background: transparent;
+  color: #cbb98a;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px;
+}
+
+button.nav:checked {
+  background: #3a2a12;
+  color: #f0d78c;
+}
+
+.page {
+  padding: 18px 20px;
+}
+
+.frame {
+  border: 1px solid #8a6a32;
+  background: #1a120b;
+  padding: 12px;
+}
+
+label.title {
+  font-size: 22px;
+}
+
+label.muted {
+  color: #a89468;
+}
+
+label.rarity-normal { color: #c8c8c8; }
+label.rarity-magic { color: #8888ff; }
+label.rarity-rare { color: #ffff77; }
+label.rarity-unique { color: #af6025; }
+label.rarity-gem { color: #1ba29b; }
+label.rarity-currency { color: #aa9e82; }
+
+label.mod-plain { color: #e8dcc0; }
+label.mod-fire { color: #ff6b4a; }
+label.mod-cold { color: #6eb6ff; }
+label.mod-lightning { color: #ffe14a; }
+label.mod-chaos { color: #d35dff; }
+label.mod-life { color: #ff6b6b; }
+label.mod-mana { color: #6eb6ff; }
+label.mod-es { color: #88e0c8; }
+label.mod-armour { color: #e0c088; }
+label.mod-evasion { color: #9dcc6a; }
+
+button.action {
+  background: #2a1e10;
+  color: #f0d78c;
+  border: 1px solid #8a6a32;
+  padding: 8px 14px;
+}
+
+entry {
+  background: #100c08;
+  color: #e8dcc0;
+  border: 1px solid #8a6a32;
+}
